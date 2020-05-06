@@ -28,7 +28,7 @@ public class Calendar {
  * Почему после If к data не прибавляет 1?
  */
         if ((month == 1 || month == 3 || month == 5 || month == 7 || month == 9
-                || month == 11)&& data>0&&data<30) {
+                || month == 11)&& data>0&&data<=30) {
             System.out.println(data + 1);
         }
         }
